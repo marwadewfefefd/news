@@ -1,0 +1,54 @@
+@font-face {
+    font-family:janna;
+    src: url(font/Janna_LT_Regular.ttf);
+    }
+:root{
+    --first-color:#5b4834;
+    --page-background-color:#f1f2f6;
+    --div-background-color:#eaeaea;
+    --brimary-bg:#F9F5F0;
+
+}
+
+*{
+
+    font-family:janna ;
+}
+body{
+    background-color:var(--page-background-color);
+}
+
+
+.login-form , .signup-form{
+    width:500px;
+    margin:80px auto;
+    background-color:var(--div-background-color);
+    padding: 20px;
+    border-radius: 25px;
+    border:1px solid var(--page-background-color);
+    background-color: var(--div-background-color);
+}
+form h1{
+    text-align: center;
+}
+form .inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+}
+.login-form-buttons{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer{
+   
+    
+    text-align: center;
+    padding:10px 0;
+    
+}
+.add-cat-continer{
+    margin-bottom: 300px;
+}
